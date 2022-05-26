@@ -1,0 +1,15 @@
+{
+  "name": "Anime - Subs",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "(HorribleSubs|SubsPlease|SallySubs)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(HorribleSubs|SubsPlease|SallySubs)"
+      }
+    }
+  ]
+}

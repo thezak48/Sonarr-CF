@@ -1,0 +1,33 @@
+{
+  "name": "Anime - FanSubs 2nd Tier",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "(\\[Orphan\\]|-Orphan\\b|\\[Yabai\\]|-Yabai\\b|\\bNii-sama\\b)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\[Orphan\\]|-Orphan\\b|\\[Yabai\\]|-Yabai\\b|\\bNii-sama\\b)"
+      }
+    },
+    {
+      "name": "(\\[Doki\\]|-Doki\\b|\\[Chihiro\\]|-Chihiro\\b|Final8)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\[Doki\\]|-Doki\\b|\\[Chihiro\\]|-Chihiro\\b|Final8)"
+      }
+    },
+    {
+      "name": "(\\[tenshi\\]|-tenshi\\b|SHiN-gx)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\[tenshi\\]|-tenshi\\b|SHiN-gx)"
+      }
+    }
+  ]
+}

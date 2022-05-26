@@ -1,0 +1,15 @@
+{
+  "name": "Anime - BluRay / Dual-Audio / Special",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "(E[.-]N[.-]D)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(E[.-]N[.-]D)"
+      }
+    }
+  ]
+}

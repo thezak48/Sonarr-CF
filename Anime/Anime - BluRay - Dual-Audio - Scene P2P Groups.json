@@ -1,0 +1,33 @@
+{
+  "name": "Anime - BluRay / Dual-Audio / Scene|P2P Groups",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "(\\bDHD\\b|RedBlade|TENEIGHTY|WaLMaRT)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\bDHD\\b|RedBlade|TENEIGHTY|WaLMaRT)"
+      }
+    },
+    {
+      "name": "(\\bBMF\\b|\\[STRiFE\\]|-STRiFE\\b)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\bBMF\\b|\\[STRiFE\\]|-STRiFE\\b)"
+      }
+    },
+    {
+      "name": "(MKVULTRA|iAHD|ANiHLS)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(MKVULTRA|iAHD|ANiHLS)"
+      }
+    }
+  ]
+}

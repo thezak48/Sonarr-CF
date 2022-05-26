@@ -1,0 +1,24 @@
+{
+  "name": "Anime - FanSubs 1st Tier",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "(\\bCH\\b|\\bFFF\\b|Licca|Soldado|SNSbu)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\bCH\\b|\\bFFF\\b|Licca|Soldado|SNSbu)"
+      }
+    },
+    {
+      "name": "(Coalgirls|BlurayDesuYo|DameDesuYo|\\bPAS\\b)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(Coalgirls|BlurayDesuYo|DameDesuYo|\\bPAS\\b)"
+      }
+    }
+  ]
+}

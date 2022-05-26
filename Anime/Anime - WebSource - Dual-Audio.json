@@ -1,0 +1,15 @@
+{
+  "name": "Anime - WebSource / Dual-Audio",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "(xPearse|\\bMCR\\b|\\bKS\\b|KiyoshiStar)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(xPearse|\\bMCR\\b|\\bKS\\b|KiyoshiStar)"
+      }
+    }
+  ]
+}

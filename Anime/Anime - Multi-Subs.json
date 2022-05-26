@@ -1,0 +1,15 @@
+{
+  "name": "Anime - Multi-Subs",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "(Erai-raws|KAN3D2M)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(Erai-raws|KAN3D2M)"
+      }
+    }
+  ]
+}

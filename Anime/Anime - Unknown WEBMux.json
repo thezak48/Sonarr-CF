@@ -1,0 +1,15 @@
+{
+  "name": "Anime - Unknown WEBMux",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Unknown WEBMux",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(Web-?Rip|WEBMux)/x"
+      }
+    }
+  ]
+}

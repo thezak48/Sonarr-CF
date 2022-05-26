@@ -1,0 +1,24 @@
+{
+  "name": "Anime - Subs 2nd Tier",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "(\\[Mysteria\\]|-Mysteria\\b|Asenshi)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\[Mysteria\\]|-Mysteria\\b|Asenshi)"
+      }
+    },
+    {
+      "name": "(\\[Mysteria\\]|-Mysteria\\b|Asenshi)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\[Mysteria\\]|-Mysteria\\b|Asenshi)"
+      }
+    }
+  ]
+}

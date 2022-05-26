@@ -1,0 +1,105 @@
+{
+  "name": "Anime - Sub-Par Releases 2nd Tier",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "(\\[Pixel\\]|-Pixel\\b\\[EDGE\\]|-EDGE\\b|\\[Ranger\\]|-Ranger\\b)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\[Pixel\\]|-Pixel\\b\\[EDGE\\]|-EDGE\\b|\\[Ranger\\]|-Ranger\\b)"
+      }
+    },
+    {
+      "name": "(SpaceFish|DeadFish|\\bDB\\b|Man\\.K|\\bHR\\b)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(SpaceFish|DeadFish|\\bDB\\b|Man\\.K|\\bHR\\b)"
+      }
+    },
+    {
+      "name": "(BakedFish|N[eo][wo]b[ ._-]?Subs|\\bAnime[ .]Time\\b)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(BakedFish|N[eo][wo]b[ ._-]?Subs|\\bAnime[ .]Time\\b)"
+      }
+    },
+    {
+      "name": "(AnimeKaizoku|\\[Kaizoku\\]|-Kaizoku\\b|\\bCBB\\b|phazer11)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(AnimeKaizoku|\\[Kaizoku\\]|-Kaizoku\\b|\\bCBB\\b|phazer11)"
+      }
+    },
+    {
+      "name": "(iPUNISHER|MiniTheatre|MiniFreeza|Mr\\.Deadpool)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(iPUNISHER|MiniTheatre|MiniFreeza|Mr\\.Deadpool)"
+      }
+    },
+    {
+      "name": "(NemDiggers|Project-gxs|youshikibi)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(NemDiggers|Project-gxs|youshikibi)"
+      }
+    },
+    {
+      "name": "(\\bMD\\b|Pog42|mdcx)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\bMD\\b|Pog42|mdcx)"
+      }
+    },
+    {
+      "name": "(A-Destiny|TOPKEK|\\bUwU\\b|DARKFLiX)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(A-Destiny|TOPKEK|\\bUwU\\b|DARKFLiX)"
+      }
+    },
+    {
+      "name": "(\\[Maximus\\]|-Maximus\\b|\\[224\\]|-224\\b)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\[Maximus\\]|-Maximus\\b|\\[224\\]|-224\\b)"
+      }
+    },
+    {
+      "name": "(\\[Harunatsu\\]|-Harunatsu\\b)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\[Harunatsu\\]|-Harunatsu\\b)"
+      }
+    },
+    {
+      "name": "(\\[Davinci\\]|-Davinci\\b)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\[Davinci\\]|-Davinci\\b)"
+      }
+    }
+  ]
+}

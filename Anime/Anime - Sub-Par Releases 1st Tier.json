@@ -1,0 +1,24 @@
+{
+  "name": "Anime - Sub-Par Releases 1st Tier",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "(\\[Judas\\]|-Judas|\\[Cleo\\]|-Cleo)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\[Judas\\]|-Judas|\\[Cleo\\]|-Cleo)"
+      }
+    },
+    {
+      "name": "(AnimeRG|bonkai77|URANiME)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(AnimeRG|bonkai77|URANiME)"
+      }
+    }
+  ]
+}

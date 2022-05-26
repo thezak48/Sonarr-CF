@@ -1,0 +1,33 @@
+{
+  "name": "Anime - BluRay / Dual-Audio / 1st Tier",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "(\\bHAiKU\\b|Exiled-Destiny|\\b(E-D)\\b|Koten[ ._-]Gars)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\bHAiKU\\b|Exiled-Destiny|\\b(E-D)\\b|Koten[ ._-]Gars)"
+      }
+    },
+    {
+      "name": "(\\[GHOST\\]|-GHOST\\b|\\[NPC\\]|-NPC\\b|\\bCBM\\b)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\[GHOST\\]|-GHOST\\b|\\[NPC\\]|-NPC\\b|\\bCBM\\b)"
+      }
+    },
+    {
+      "name": "(\\bKH\\b|\\bCBT\\b|\\[naiyas\\]|-naiyas\\b|ShowY|Kametsu|\\bPn8\\b|Hark0N)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\bKH\\b|\\bCBT\\b|\\[naiyas\\]|-naiyas\\b|ShowY|Kametsu|\\bPn8\\b|Hark0N)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Anime - BluRay / Dual-Audio / 2nd Tier",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "(\\[YURASUKA\\]|-YURASUKA\\b|karios|Arukoru)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\[YURASUKA\\]|-YURASUKA\\b|karios|Arukoru)"
+      }
+    },
+    {
+      "name": "(\\bRH\\b|\\[Prof\\]|-Prof\\b)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\bRH\\b|\\[Prof\\]|-Prof\\b)"
+      }
+    }
+  ]
+}

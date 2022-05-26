@@ -1,0 +1,51 @@
+{
+  "name": "Anime - BluRay-Remux / Dual-Audio / 1st Tier",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "(deanzel|\\bZR\\b|\\bCTR\\b|\\bSCY\\b|\\bMK\\b|TTGA)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(deanzel|\\bZR\\b|\\bCTR\\b|\\bSCY\\b|\\bMK\\b|TTGA)"
+      }
+    },
+    {
+      "name": "(\\bShir\\b|LostYears|BluDragon|KAWAiREMUX)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\bShir\\b|LostYears|BluDragon|KAWAiREMUX)"
+      }
+    },
+    {
+      "name": "(\\bAC\\b|ShadyCrab|Rasetsu|Raizel|Dragon-Releases)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\bAC\\b|ShadyCrab|Rasetsu|Raizel|Dragon-Releases)"
+      }
+    },
+    {
+      "name": "(\\[Spark\\]|-Spark\\b|\\bREVO\\b|\\bSRLS\\b|ANThELIa)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\[Spark\\]|-Spark\\b|\\bREVO\\b|\\bSRLS\\b|ANThELIa)"
+      }
+    },
+    {
+      "name": "(\\[Vanilla\\]|-Vanilla\\b|\\bAP\\b)",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(\\[Vanilla\\]|-Vanilla\\b|\\bAP\\b)"
+      }
+    }
+  ]
+}
