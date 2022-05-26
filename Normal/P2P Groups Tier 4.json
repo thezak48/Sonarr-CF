@@ -1,0 +1,15 @@
+{
+  "name": "P2P Groups Tier 4",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "100",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(-ViSiON)\\b"
+      }
+    }
+  ]
+}

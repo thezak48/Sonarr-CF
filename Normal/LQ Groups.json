@@ -1,0 +1,15 @@
+{
+  "name": "LQ Groups",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Low Quality Groups",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(TBS|-BRiNK|-CHX|-XLF|-worldmkv|-GHOSTS|-VIDEOHOLE|nhanc3|Pahe\\.ph|Pahe\\.in|-NERO)\\b"
+      }
+    }
+  ]
+}

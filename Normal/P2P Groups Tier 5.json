@@ -1,0 +1,15 @@
+{
+  "name": "P2P Groups Tier 5",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "12",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(repack3)"
+      }
+    }
+  ]
+}

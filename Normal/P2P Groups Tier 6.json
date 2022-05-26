@@ -1,0 +1,15 @@
+{
+  "name": "P2P Groups Tier 6",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "11",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(repack2)"
+      }
+    }
+  ]
+}

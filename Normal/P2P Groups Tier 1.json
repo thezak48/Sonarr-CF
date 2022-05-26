@@ -1,0 +1,15 @@
+{
+  "name": "P2P Groups Tier 1",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "180",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(-deflate|-inflate)\\b"
+      }
+    }
+  ]
+}

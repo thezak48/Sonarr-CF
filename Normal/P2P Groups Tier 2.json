@@ -1,0 +1,15 @@
+{
+  "name": "P2P Groups Tier 2",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "150",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "(-AJP69|-BTN|-CasStudio|-CtrlHD|-KiNGS|-monkee|-NTb|-NTG|-QOQ|-RTN|-TOMMY|-ViSUM|-T6D|-FLUX|NOSiViD)\\b"
+      }
+    }
+  ]
+}

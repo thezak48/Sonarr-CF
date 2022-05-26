@@ -1,0 +1,15 @@
+{
+  "name": "P2P Groups Tier 7",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "10",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(repack|proper)\\b"
+      }
+    }
+  ]
+}
